@@ -8,9 +8,9 @@ use Connehito\CakeSentry\Error\Middleware\ErrorHandlerMiddleware;
 
 class Plugin extends BasePlugin
 {
-    /**
-     * {@inheritDoc}
-     */
+/**
+ * {@inheritDoc}
+ */
     public function middleware($middleware)
     {
         $middleware = parent::middleware($middleware);
